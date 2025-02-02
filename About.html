@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<style>
+    .navbar{
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: white;
+  margin-bottom: 5px;
+}
+.navbar .logo{
+    margin: 3px 5px;
+}
+.log img{
+  height: 56px;
+  margin: 3px 6px;
+  
+}
+.navbar ul{
+  display: flex;
+}
+.navbar:before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.navbar ul li{
+ 
+  list-style: none;
+  font-size: 1.3rem;
+}
+.navbar ul li a{
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.navbar ul li a:hover{
+  color:black;
+  background-color: white;
+}
+    .home{
+        background-color: aliceblue;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .home .about{
+        padding: 10px;
+    }
+    img{
+        width: 40%;
+    }
+
+    .main{
+  background-color:black;
+  height: 300px;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  opacity: 0.4;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  
+}
+.Menu li{
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+.UsefulLink li{
+  list-style: none;
+  padding: 10px;
+}
+.Contactus li{
+  list-style: none;
+  padding-top: 10px;
+}
+  
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="./Img/cup-logo-3.jpg" alt="logo....">GrandCoffee</div>
+      
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="C:\Users\muham\Desktop\intouch\About.html">About</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+             
+            </ul>
+        </nav>
+    <contianer class="home">
+        <div class="about"><h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Aspernatur, asperiores accusamus ipsa nihil consequuntur veritatis, animi cupiditate reprehenderit,<br> saepe cum hic natus minima quo eligendi earum suscipit minus aliquam velit.</p>
+        <button class="btn">Read more</button></div>
+        <img src="./Img/cup11.jpg" alt="">
+    </contianer>
+
+    <section class="main">
+        <div class="about">About<hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Pariatur laborum sapiente omnis iure unde maxime <br>
+          perspiciatis ipsa minima dolores corporis! Saepe cupiditate.</p></div>
+        <div class="Menu">Menu<hr>
+          <li>Home</li>
+          <li>About</li>
+          <li>Our Services</li>
+          <li>contact us</li>
+          <li>Gallery</li>
+        </div>
+        <div class="UsefulLink">Useful Link<hr>
+          <li>instragram.com</li>
+          <li>Youtube.com</li>
+          <li>www.MyCOfeeShop.com</li>
+        </div>
+        <div class="Contactus">contact us<hr>
+          <li>Address:Skardu</li>
+          <li>contact no:0348-8475795</li>
+          <li>Email:Skardu1234@gmail.com</li>
+        </div>
+      </section>
+    
+</body>
+</html>
