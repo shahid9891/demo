@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery portion</title>
+</head>
+<a href=""></a>
+<style>
+    .navbar{
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+.navbar .logo{
+    margin: 3px 5px;
+}
+.log img{
+  height: 56px;
+  margin: 3px 6px;
+  
+}
+.navbar ul{
+  display: flex;
+}
+.navbar:before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.navbar ul li{
+ 
+  list-style: none;
+  font-size: 1.3rem;
+}
+.navbar ul li a{
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.navbar ul li a:hover{
+  color:black;
+  background-color: white;
+}
+    .gallery{
+        display: flex;
+        
+    }
+    .image{
+        background-color: yellow;
+        width: 33%;
+        height: 150px;
+    }
+    .text{
+        text-align: center;
+    }
+    
+    .main{
+  background-color:black;
+  height: 300px;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  opacity: 0.4;
+  color: white;
+  padding: 5px;
+  
+}
+.Menu li{
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+.UsefulLink li{
+  list-style: none;
+  padding: 10px;
+}
+.Contactus li{
+  list-style: none;
+  padding-top: 10px;
+}
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="./Img/cup-logo-3.jpg" alt="logo....">GrandCoffee</div>
+      
+            <ul>
+                <li><a href="C:\Users\muham\Desktop\intouch\Home.html">Home</a></li>
+                <li><a href="C:\Users\muham\Desktop\intouch\About.html">About</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="C:\Users\muham\Desktop\intouch\Gallery.html">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+             
+            </ul>
+        </nav>
+
+    <container class="Gallery">
+        <div class="text"><h1>Gallery</h1></div><hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis accusamus aliquid ratione suscipit temporibus magnam commodi, nihil dolorem eos laudantium architecto rerum ipsum, minima repellendus! Qui commodi temporibus possimus exercitationem.</p>
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+        <img class="image" src="./Img/cup10.jpg" alt="">
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+        <img class="image" src="./Img/cup11.jpg" alt="">
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+        <img class="image" src="./Img/cup1.jpeg" alt="">
+    </container>
+    <section class="main">
+        <div class="about"><h3>About</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Pariatur laborum sapiente omnis iure unde maxime <br>
+          perspiciatis ipsa minima dolores corporis! Saepe cupiditate.</p></div>
+        <div class="Menu"><h3>Menu</h3>
+          <li>Home</li>
+          <li>About</li>
+          <li>Our Services</li>
+          <li>contact us</li>
+          <li>Gallery</li>
+        </div>
+        <div class="UsefulLink"><h3>Useful Link</h3>
+          <li>instragram.com</li>
+          <li>Youtube.com</li>
+          <li>www.MyCOfeeShop.com</li>
+        </div>
+        <div class="Contactus"><h3>contact us</h3>
+          <li>Address:Skardu</li>
+          <li>contact no:0348-8475795</li>
+          <li>Email:Skardu1234@gmail.com</li>
+        </div>
+      </section>
+</body>
+</html>
